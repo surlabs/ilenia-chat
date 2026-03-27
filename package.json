@@ -1,0 +1,38 @@
+{
+	"name": "ilenia-rag-frontend",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"check": "biome check --write .",
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"check-types": "turbo check-types",
+		"dev:native": "turbo -F native dev",
+		"dev:web": "turbo -F web dev",
+		"dev:server": "turbo -F server dev",
+		"db:push": "turbo -F server db:push",
+		"db:studio": "turbo -F server db:studio",
+		"db:generate": "turbo -F server db:generate",
+		"db:migrate": "turbo -F server db:migrate",
+		"db:start": "turbo -F server db:start",
+		"db:watch": "turbo -F server db:watch",
+		"db:stop": "turbo -F server db:stop",
+		"db:down": "turbo -F server db:down"
+	},
+	"optionalDependencies": {
+		"lightningcss-win32-x64-msvc": "^1.30.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.0",
+		"baseline-browser-mapping": "^2.8.32",
+		"turbo": "^2.5.4",
+		"ultracite": "5.2.4"
+	},
+	"packageManager": "npm@11.5.2",
+	"dependencies": {
+		"ci": "^2.3.0"
+	}
+}

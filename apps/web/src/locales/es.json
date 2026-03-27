@@ -1,0 +1,114 @@
+{
+  "suggestions": {
+    "title": "¿En qué puedo ayudarte hoy?",
+    "subtitle": "Proyecto ILENIA: Inteligencia Artificial Multilingüe",
+    "card1": {
+      "title": "Ayudas de igualdad",
+      "description": "Subvenciones de género en empresas."
+    },
+    "card2": {
+      "title": "Estrategia del olivar",
+      "description": "Sector del olivar en Andalucía."
+    },
+    "card3": {
+      "title": "Memoria democrática",
+      "description": "Museos y lugares de memoria."
+    },
+    "card4": {
+      "title": "Funciones del presidente",
+      "description": "Presidente de las Corts Valencianes."
+    },
+    "domains": {
+      "legal": "Legal",
+      "health": "Salud",
+      "general": "General",
+      "bopv": "BOPV",
+      "boja": "BOJA",
+      "noticias": "Noticias",
+      "parliament": "Parlamento"
+    },
+    "languages": {
+      "eu": "Euskera",
+      "gl": "Gallego",
+      "va": "Valencià",
+      "es": "Castellano"
+    }
+  },
+  "common": {
+    "chats": "Chats",
+    "newChat": "Nuevo Chat",
+    "appName": "ILENIA Chat",
+    "settings": "Configuración",
+    "signOut": "Cerrar Sesión",
+    "signIn": "Iniciar Sesión",
+    "delete": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "chat": {
+    "deleteTitle": "¿Eliminar conversación?",
+    "deleteDescription": "Esta acción no se puede deshacer. Se eliminará permanentemente esta conversación.",
+    "notFound": "Conversación no encontrada",
+    "emptyTitle": "Sin mensajes",
+    "emptyDescription": "Esta conversación aún no tiene mensajes",
+    "noMessages": "Sin mensajes aún",
+    "newConversation": "Nueva conversación",
+    "inputPlaceholder": "Escribe tu mensaje..."
+  },
+  "sources": {
+    "used": "{{count}} fuentes utilizadas",
+    "used_one": "{{count}} fuente utilizada",
+    "used_other": "{{count}} fuentes utilizadas"
+  },
+  "status": {
+    "retrying": "Reintentando conexión (intento {{attempt}})...",
+    "error": "No se pudo conectar con el servicio. Por favor, inténtalo de nuevo."
+  },
+  "sidebar": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "older": "Anteriores",
+    "loginToSeeHistory": "Inicia sesión para ver tu historial",
+    "noChats": "No hay conversaciones aún"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "rag": {
+    "selector": {
+      "label": "Modelo",
+      "auto": "Automático",
+      "autoTitle": "Modo Automático",
+      "autoDescription": "Detectar idioma y dominio",
+      "selectLanguage": "Selecciona un idioma",
+      "footer": "{{domains}} Dominios · {{languages}} Idiomas"
+    }
+  },
+  "auth": {
+    "welcomeTitle": "Bienvenido a ILENIA",
+    "createAccount": "Crear cuenta",
+    "signInDescription": "Accede con tus credenciales",
+    "signUpDescription": "Regístrate para comenzar",
+    "email": "Email",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "invalidEmail": "Email inválido",
+    "minChars8": "Mínimo 8 caracteres",
+    "minChars2": "Mínimo 2 caracteres",
+    "signingIn": "Iniciando...",
+    "signInButton": "Iniciar Sesión",
+    "noAccount": "¿No tienes cuenta?",
+    "register": "Regístrate",
+    "creating": "Creando...",
+    "createAccountButton": "Crear Cuenta",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "signInLink": "Inicia sesión",
+    "signInSuccess": "Sesión iniciada correctamente",
+    "signInError": "Error al iniciar sesión",
+    "invalidCredentials": "Las credenciales no son válidas",
+    "signUpSuccess": "Cuenta creada correctamente",
+    "signUpError": "Error al crear cuenta"
+  }
+}

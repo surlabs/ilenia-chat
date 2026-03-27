@@ -1,0 +1,114 @@
+{
+  "suggestions": {
+    "title": "En què puc ajudar-te hui?",
+    "subtitle": "Projecte ILENIA: Intel·ligència Artificial Multilingüe",
+    "card1": {
+      "title": "Drets lingüístics",
+      "description": "Ús de l'euskera en l'administració."
+    },
+    "card2": {
+      "title": "Sistema de salut",
+      "description": "El SERGAS a Galícia."
+    },
+    "card3": {
+      "title": "Llengua valenciana",
+      "description": "Drets i cultura."
+    },
+    "card4": {
+      "title": "Projecte Ilenia",
+      "description": "IA multilingüe a Espanya."
+    },
+    "domains": {
+      "legal": "Legal",
+      "health": "Salut",
+      "general": "General",
+      "bopv": "BOPV",
+      "boja": "BOJA",
+      "noticias": "Notícies",
+      "parliament": "Parlament"
+    },
+    "languages": {
+      "eu": "Euskera",
+      "gl": "Gallec",
+      "va": "Valencià",
+      "es": "Castellà"
+    }
+  },
+  "common": {
+    "chats": "Xats",
+    "newChat": "Nou xat",
+    "appName": "ILENIA Xat",
+    "settings": "Configuració",
+    "signOut": "Tancar sessió",
+    "signIn": "Iniciar sessió",
+    "delete": "Eliminar",
+    "cancel": "Cancel·lar"
+  },
+  "chat": {
+    "deleteTitle": "Eliminar conversa?",
+    "deleteDescription": "Esta acció no es pot desfer. S'eliminarà permanentment esta conversa.",
+    "notFound": "Conversa no trobada",
+    "emptyTitle": "Sense missatges",
+    "emptyDescription": "Esta conversa encara no té missatges",
+    "noMessages": "Sense missatges encara",
+    "newConversation": "Nova conversa",
+    "inputPlaceholder": "Escriu el teu missatge..."
+  },
+  "sources": {
+    "used": "{{count}} fonts utilitzades",
+    "used_one": "{{count}} font utilitzada",
+    "used_other": "{{count}} fonts utilitzades"
+  },
+  "status": {
+    "retrying": "Reintentant connexió (intent {{attempt}})...",
+    "error": "No s'ha pogut connectar amb el servei. Si us plau, torna-ho a provar."
+  },
+  "sidebar": {
+    "today": "Hui",
+    "yesterday": "Ahir",
+    "older": "Anteriors",
+    "loginToSeeHistory": "Inicia sessió per a veure el teu historial",
+    "noChats": "Encara no hi ha converses"
+  },
+  "theme": {
+    "toggle": "Canviar tema",
+    "light": "Clar",
+    "dark": "Fosc",
+    "system": "Sistema"
+  },
+  "rag": {
+    "selector": {
+      "label": "Model",
+      "auto": "Automàtic",
+      "autoTitle": "Mode Automàtic",
+      "autoDescription": "Detectar idioma i domini",
+      "selectLanguage": "Selecciona un idioma",
+      "footer": "{{domains}} Dominis · {{languages}} Idiomes"
+    }
+  },
+  "auth": {
+    "welcomeTitle": "Benvingut a ILENIA",
+    "createAccount": "Crear compte",
+    "signInDescription": "Accedeix amb les teues credencials",
+    "signUpDescription": "Registra't per a començar",
+    "email": "Correu electrònic",
+    "password": "Contrasenya",
+    "name": "Nom",
+    "invalidEmail": "Correu electrònic invàlid",
+    "minChars8": "Mínim 8 caràcters",
+    "minChars2": "Mínim 2 caràcters",
+    "signingIn": "Iniciant...",
+    "signInButton": "Iniciar sessió",
+    "noAccount": "No tens compte?",
+    "register": "Registra't",
+    "creating": "Creant...",
+    "createAccountButton": "Crear compte",
+    "hasAccount": "Ja tens compte?",
+    "signInLink": "Inicia sessió",
+    "signInSuccess": "Sessió iniciada correctament",
+    "signInError": "Error en iniciar sessió",
+    "invalidCredentials": "Les credencials no són vàlides",
+    "signUpSuccess": "Compte creat correctament",
+    "signUpError": "Error en crear compte"
+  }
+}

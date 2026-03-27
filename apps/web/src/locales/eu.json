@@ -1,0 +1,114 @@
+{
+  "suggestions": {
+    "title": "Zertan lagundu dezaket gaur?",
+    "subtitle": "ILENIA Proiektua: Adimen Artifiziala Eleaniztuna",
+    "card1": {
+      "title": "Hizkuntza eskubideak",
+      "description": "Euskara administrazioan."
+    },
+    "card2": {
+      "title": "Osasun sistema",
+      "description": "Galiziako SERGAS."
+    },
+    "card3": {
+      "title": "Valentziera",
+      "description": "Eskubideak eta kultura."
+    },
+    "card4": {
+      "title": "Ilenia proiektua",
+      "description": "AA eleaniztuna Espainian."
+    },
+    "domains": {
+      "legal": "Legea",
+      "health": "Osasuna",
+      "general": "Orokorra",
+      "bopv": "EHAA",
+      "boja": "BOJA",
+      "noticias": "Albisteak",
+      "parliament": "Legebiltzarra"
+    },
+    "languages": {
+      "eu": "Euskera",
+      "gl": "Galegoa",
+      "va": "Valentziera",
+      "es": "Gaztelania"
+    }
+  },
+  "common": {
+    "chats": "Txatak",
+    "newChat": "Txat berria",
+    "appName": "ILENIA Txat",
+    "settings": "Ezarpenak",
+    "signOut": "Saioa itxi",
+    "signIn": "Saioa hasi",
+    "delete": "Ezabatu",
+    "cancel": "Ezeztatu"
+  },
+  "chat": {
+    "deleteTitle": "Elkarrizketa ezabatu?",
+    "deleteDescription": "Ekintza hau ezin da desegin. Elkarrizketa hau behin betiko ezabatuko da.",
+    "notFound": "Elkarrizketa ez da aurkitu",
+    "emptyTitle": "Mezurik gabe",
+    "emptyDescription": "Elkarrizketa honek oraindik ez du mezurik",
+    "noMessages": "Oraindik mezurik ez",
+    "newConversation": "Elkarrizketa berria",
+    "inputPlaceholder": "Idatzi zure mezua..."
+  },
+  "sources": {
+    "used": "{{count}} iturri erabiliak",
+    "used_one": "Iturri {{count}} erabilia",
+    "used_other": "{{count}} iturri erabiliak"
+  },
+  "status": {
+    "retrying": "Konexioa berriro saiatzen ({{attempt}}. saiakera)...",
+    "error": "Ezin izan da zerbitzuarekin konektatu. Mesedez, saiatu berriro."
+  },
+  "sidebar": {
+    "today": "Gaur",
+    "yesterday": "Atzo",
+    "older": "Lehenagokoak",
+    "loginToSeeHistory": "Hasi saioa zure historia ikusteko",
+    "noChats": "Oraindik ez dago elkarrizketarik"
+  },
+  "theme": {
+    "toggle": "Gaia aldatu",
+    "light": "Argia",
+    "dark": "Iluna",
+    "system": "Sistema"
+  },
+  "rag": {
+    "selector": {
+      "label": "Eredua",
+      "auto": "Automatikoa",
+      "autoTitle": "Modu Automatikoa",
+      "autoDescription": "Hizkuntza eta domeinua detektatu",
+      "selectLanguage": "Hautatu hizkuntza bat",
+      "footer": "{{domains}} Domeinu · {{languages}} Hizkuntza"
+    }
+  },
+  "auth": {
+    "welcomeTitle": "Ongi etorri ILENIAra",
+    "createAccount": "Kontua sortu",
+    "signInDescription": "Sartu zure kredentzialekin",
+    "signUpDescription": "Erregistratu hasteko",
+    "email": "Emaila",
+    "password": "Pasahitza",
+    "name": "Izena",
+    "invalidEmail": "Email baliogabea",
+    "minChars8": "Gutxienez 8 karaktere",
+    "minChars2": "Gutxienez 2 karaktere",
+    "signingIn": "Sartzen...",
+    "signInButton": "Saioa hasi",
+    "noAccount": "Ez duzu konturik?",
+    "register": "Erregistratu",
+    "creating": "Sortzen...",
+    "createAccountButton": "Kontua sortu",
+    "hasAccount": "Badaukazu kontua?",
+    "signInLink": "Hasi saioa",
+    "signInSuccess": "Saioa ondo hasi da",
+    "signInError": "Errorea saioa hastean",
+    "invalidCredentials": "Kredentzialak ez dira baliozkoak",
+    "signUpSuccess": "Kontua ondo sortu da",
+    "signUpError": "Errorea kontua sortzean"
+  }
+}
