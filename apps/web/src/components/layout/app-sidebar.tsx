@@ -133,7 +133,7 @@ type CreateChatResponse = {
         lastMessage: null,
       };
 
-      queryClient.setQueryData(listKey, (old: unknown[]) => [newChatListItem, ...(old || [])]);
+      queryClient.setQueryData(listKey, (old) => [newChatListItem, ...(old ?? [])]);
 
       queryClient.setQueryData(getKey, {
         ...newChat,
