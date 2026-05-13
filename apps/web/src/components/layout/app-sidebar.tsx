@@ -47,7 +47,7 @@ type ChatListItem = {
   title: string;
   createdAt: Date;
   updatedAt: Date;
-  lastMessage: string | null;
+  lastMessage: string;
 };
 
 type GroupedChats = {
@@ -130,7 +130,7 @@ type CreateChatResponse = {
         title: newChat.title,
         createdAt: new Date(newChat.createdAt),
         updatedAt: new Date(newChat.updatedAt),
-        lastMessage: null,
+        lastMessage: "",
       };
 
       queryClient.setQueryData(listKey, (old) => [newChatListItem, ...(old ?? [])]);
